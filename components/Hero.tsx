@@ -16,7 +16,7 @@ const Hero = () => {
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
         <h1 className="bold-52 xl:bold-88">Wander often, wonder always</h1>
-        <p className="regular-16 mt-6 text-gray-30 lg:max-w-[520px]">
+        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           Embrace the spirit of exploration, let your curiosity roam freely, and
           marvel at the wonders around you. In the journey of discovery, find
           beauty in the unknown, and let the perpetual sense of wonder be your
@@ -51,6 +51,28 @@ const Hero = () => {
             icon="/play.svg"
             variant="btn_white_text"
           />
+        </div>
+      </div>
+      {/* Right */}
+      <div className="relative flex flex-1 items-start">
+        <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+          <div className="flex flex-col">
+            <div className="flexBetween">
+              <p className="regular-16 text-gray-20">Location</p>
+              <Image src="/close.svg" alt="close" width={24} height={24} />
+            </div>
+            <p className="bold-20 text-white">Lakshadweep</p>
+          </div>
+          <div className="flexBetween">
+            <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Distance</p>
+              <p className="bold-20 text-white">35.18 mi</p>
+            </div>
+            <div className="flex flex-col">
+              <p className="regular-16 block text-gray-20">Elevation</p>
+              <p className="bold-20 text-white">568.0 KM</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
