@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Manikandan1818/journey-app",
+  "export": "next export",
   "name": "journey-app",
   "version": "0.1.0",
   "private": true,
